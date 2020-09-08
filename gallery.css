@@ -5,7 +5,7 @@ html {
 }
 body
 {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 300%);
   color: #fafafa!important;
   text-align:center!important;
 }
@@ -151,7 +151,7 @@ h2 {
   width: 230px;
     height: 160px;
     box-shadow: 3px 3px 3px #000;
-    border:1px solid white;
+    
 }
 .col-sm-3 img:hover{
   -moz-transform: scale(1.5);
@@ -172,29 +172,28 @@ h2 {
   margin: 0 auto!important;
 }
 .button li{
-  color: blue;
+  color: white;
   text-decoration: none!important;
   
   
 }
 .button a{
-  padding: 1% 3% 1%;
-  background-color: white;
+  padding: 5px 15px 5px;
+  background-color: #452f90;
   font-size:20px;
   margin: 0 auto!important;
   border-radius: 12px;
 
 }
-.active{
-  background-color: blue!important;
-}
-.active>li{
-  color: white!important;
+.button a:hover{
+  background-image: linear-gradient(-45deg,#452f90,#c32170);
+  transform: scale(1.1);
 
 }
+
 .button a:hover{
   text-decoration: none;
 }
 .col-sm-12{
-  padding: 0 20% 0!important;
+  padding: 0 15% 0!important;
 }
